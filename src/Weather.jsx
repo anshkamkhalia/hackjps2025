@@ -4,7 +4,6 @@ import './Weather.css';
 const Weather = ({ place }) => {
   const [forecastByDay, setForecastByDay] = useState({});
   const [error, setError] = useState(null);
-  const apiKey = '0c2d6abe2743da085e14c84d5f74084e';
 
   useEffect(() => {
     if (!place) return;
