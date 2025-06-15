@@ -55,7 +55,7 @@ function FlightBot() {
       const payload = { contents: chatHistory };
 
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAs3Xd_p5GEp_-cymEpt6crf8831eyNg4Y`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
